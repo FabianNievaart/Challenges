@@ -1,12 +1,97 @@
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-nav li {
-  display: inline-block; }
-nav a {
-  display: block;
-  padding: 1px 12px;
-  text-decoration: none; }
+html {
+  height: 100%; }
+  html body {
+    font-family: Arial;
+    color: black; }
+    html body .navigation {
+      height: 3913px;
+      width: 6.25%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: #424242; }
+      html body .navigation .thumbnail {
+        height: 130px;
+        width: 100%;
+        background-color: #c7c7c7; }
+        html body .navigation .thumbnail .thumbnail-image {
+          margin: 10px 10px;
+          height: 100px;
+          length: 100px; }
+      html body .navigation .nav-menu .nav-item {
+        margin: 50px -10px;
+        width: 70%;
+        padding-top: 70%;
+        border: solid 4px #c7c7c7;
+        text-decoration: none;
+        list-style-type: none; }
+    html body main {
+      padding-left: 12.5%;
+      padding-top: 2.5%; }
+      html body main header .title {
+        font-size: 450%; }
+      html body main header .content {
+        padding-top: 25px;
+        width: 800px;
+        text-align: justify;
+        font-size: xx-large;
+        line-height: 150%; }
+      html body main header .side-content {
+        font-size: xx-large;
+        position: absolute;
+        right: 120px;
+        top: 510px; }
+        html body main header .side-content .rectangle {
+          width: 300px;
+          height: 75px;
+          background-color: #424242;
+          margin: auto; }
+      html body main .some-subtitle {
+        padding-top: 100px;
+        height: 1000px; }
+        html body main .some-subtitle .subtitle {
+          padding-top: 100px;
+          font-size: 300%;
+          text-align: center;
+          padding-right: 12.5%; }
+        html body main .some-subtitle .big-rectangle {
+          width: 1555px;
+          height: 600px;
+          background-color: #c7c7c7; }
+        html body main .some-subtitle .rectangle2 {
+          width: 370px;
+          height: 200px;
+          background-color: #c7c7c7;
+          float: left;
+          margin-top: 25px;
+          margin-right: 25px; }
+      html body main .another-subtitle {
+        padding-top: 100px; }
+        html body main .another-subtitle .rectangle3 {
+          margin-left: 120px;
+          width: 1250px;
+          height: 75px;
+          background-color: #c7c7c7;
+          margin-top: 20px; }
+        html body main .another-subtitle .big-rectangle2 {
+          margin-left: 120px;
+          width: 1250px;
+          height: 700px;
+          background-color: #c7c7c7;
+          margin-top: 20px; }
+        html body main .another-subtitle .last-rectangle {
+          margin-left: 1120px;
+          width: 250px;
+          height: 100px;
+          background-color: #424242;
+          margin-top: 20px; }
+      html body main footer {
+        margin-left: 120px;
+        width: 1250px;
+        height: 200px;
+        background-color: #424242;
+        display: block;
+        margin-top: 210px;
+        position: absolute; }
 
 /*# sourceMappingURL=styles.css.map */
